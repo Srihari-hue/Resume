@@ -1,0 +1,114 @@
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header.header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header.header h1 {
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
+  
+  header.header h2 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #ddd;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  section h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  .skills ul,
+  .portfolio ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills li,
+  .portfolio li {
+    background-color: #ecf0f1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.95rem;
+  }
+  .portfolio ul :hover{
+      background-color: #2c3e50;
+      color: white;
+  }
+  
+  .portfolio a {
+    text-decoration: none;
+    color: #2980b9;
+  }
+  
+  .experience ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  footer.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      font-size: 0.95rem;
+    }
+  
+    header.header h1 {
+      font-size: 1.5rem;
+    }
+  
+    header.header h2 {
+      font-size: 1rem;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    .skills ul,
+    .portfolio ul {
+      flex-direction: column;
+    }
+  
+    .skills li,
+    .portfolio li {
+      width: 100%;
+    }
+  }
+  
